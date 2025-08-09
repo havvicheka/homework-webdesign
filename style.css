@@ -1,0 +1,264 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: gray;
+}
+.header{
+    font-family: monospace;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+
+}
+.container1{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.b1{
+    border: 1px solid gray;
+    width: 90%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    
+}
+.main{
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+.text h1{
+    color: white;
+    font-size: 50px;
+}
+p{
+    color: white;
+}
+.image{
+    display: flex;
+    gap: 10px;
+}
+.card{
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+}
+#fname{
+    width: 80%;
+    height: 65px;
+    border-radius: 20px;
+    border: 0.5px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: gray;
+}
+#lname{
+    width: 80%;
+    height: 65px;
+    border-radius: 20px;
+    border: 0.5px solid whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: gray;
+}
+.b2{
+    border: 1px solid gray;
+    width: 80%;
+    height: 50px;
+    color: white;
+    background-color:red ;
+    border-radius: 20px;
+}
+.name{
+    display: flex;
+    gap: 50px;
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 50px;
+    text-align: left;
+}
+.place{
+    
+    display: flex;
+    gap: 50px;
+    text-align: left;
+}
+h1 {
+    text-align: center;
+}
+.header1{
+    height: 50vh;
+    padding: 60px;
+    display: flex;
+    color: gray;
+    background-color: white;
+    text-align: center;
+    gap: 20px;
+}
+input[type="text"]{
+    border: none;
+    padding: 10px;
+}
+p{
+    color: gray;
+}
+.text2{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 10px;
+    
+}
+.icon{
+    padding-left: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    gap: 60px;
+}
+h2{
+    color: black;
+}
+.picture{
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    padding: 10px;
+    gap: 20%;
+    justify-content: center;
+}
+.get{
+    background-color: red;
+    width: 50%;
+    height: 50px;
+    border: none;
+    margin-right: 20px;
+}
+.talk{
+    margin-left: 10px;
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+}
+.T{
+    gap: 40px;
+}
+.pic{
+    text-align: start;
+    color: black;
+}
+.number{
+    display: flex;
+    gap: 60px;
+    margin-left: 40px;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+}
+h3{
+    color: red;
+    text-align: center;
+}
+.process{
+    color: black;
+    text-align: center;
+}
+.process1{
+    color: gray;
+    text-align: center;
+}
+.browser{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 40px;
+}
+.card1 ,.card2 ,.card3,.card4{
+    
+    padding: 30px;
+    display: flex;
+    gap: 10px;
+    width: 40%;
+    height: 50%;
+    background-color:white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 60px;
+}
+.question{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+.card5 ,.card6,.card7,.card8,.card9,.card10{
+    display: flex;
+    color: black;
+    align-items: center;
+    padding: 30px;
+    width: 40%;
+    height: 20%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.tex img{
+    width: 50px;
+}
+.pi{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50%;
+}
+.last{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    margin: 0px 50px;
+    height: 40vh;
+}
+h4{
+    color: black;
+    text-transform: uppercase;
+}
+.land{
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 50px;
+}
+.pri{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.have3{
+    display: flex;
+    gap: 20px;
+}
