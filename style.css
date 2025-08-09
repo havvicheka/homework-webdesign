@@ -85,6 +85,9 @@ p{
     background-color:red ;
     border-radius: 20px;
 }
+.b2:hover{
+    background-color: black;
+}
 .name{
     display: flex;
     gap: 50px;
@@ -157,6 +160,11 @@ h2{
     width: 40%;
     height: 50px;
     border-radius: 20px;
+}
+.talk:hover{
+    transform: translateY(-5px);
+    transition: .5s;
+    background-color: crimson;
 }
 .T{
     gap: 40px;
